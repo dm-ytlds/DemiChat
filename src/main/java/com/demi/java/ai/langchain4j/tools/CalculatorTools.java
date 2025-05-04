@@ -11,7 +11,7 @@ public class CalculatorTools {
     double sum(
             @ToolMemoryId int memoryId,
             @P(value = "加数1", required = true) double a,
-            @P(value = "加数2", required = true)double b
+            @P(value = "加数2", required = true) double b
     ) {
         System.out.println("调用加法运算");
         return a + b;
